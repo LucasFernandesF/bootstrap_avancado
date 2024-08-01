@@ -67,6 +67,11 @@ header {
     #carouselCaption {
         height: 150px;
     }
+
+    .col-md-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
 }
 
 @media screen and (max-width:640px) {
