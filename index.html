@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal RAP</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1 class="text-danger">Portal RAP</h1>
+                <button data-bs-toggle="collapse" data-bs-target="#menu" type="button" class="navbar-toggler bg-danger">
+                    <span class="navbar-toggler-icon bg-danger"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end navbar-light" id="menu">
+                    <ul id="navbar" class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#produtos">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#containerAccordion">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="white"
+                                    class="bi bi-person-square" viewBox="0 0 16 16">
+                                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                                    <path
+                                        d="M2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm12 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1v-1c0-1-1-4-6-4s-6 3-6 4v1a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1z" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <div id="carousel" class="carousel carousel-fade slide" data-bs-ride="carousel">
+        <div id="home" class="carousel-inner">
+            <div data-bs-interval="5000" class="carousel-item active">
+                <img class="d-block w-100"
+                    src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/04/kendrick-lamar-drake.png?w=1220&h=674&crop=1&quality=100" />
+                <div id="carouselCaption" class="carousel-caption font-weight-bold text-danger">
+                    <h2>Kendrick Lamar destrói pinhata com símbolo de Drake em novo clipe</h2>
+                    <p>Dono de hits como "Humble" e "Money Trees" deu um novo capítulo à treta com o desafeto canadense
+                        ao lançar o vídeo da diss track "Not Like Us"</p>
+                </div>
+            </div>
+            <div data-bs-interval="5000" class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/07/the-death-of-slim-shady-eminem-e1720816919679.jpg?w=1000&h=498&crop=1&quality=100" />
+                <div id="carouselCaption" class="carousel-caption font-weight-bold text-danger">
+                    <h2>“The Death of Slim Shady (Coup de Grâce)”: Eminem lança seu novo álbum</h2>
+                    <p>Primeiro lançamento do rapper desde 2020, novo disco traz o alter ego Slim Shady</p>
+                </div>
+            </div>
+            <div data-bs-interval="5000" class="carousel-item">
+                <img class="d-block w-100"
+                    src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/06/Prisao-Travis-Scott.png?w=1220&h=674&crop=1&quality=100">
+                <div id="carouselCaption" class="carousel-caption font-weight-bold text-danger">
+                    <h2>Rapper Travis Scott é preso por invasão de propriedade e embriaguez</h2>
+                    <p>Cantor estava na marina de Miami Beach; na Flórida, é proibido circular bêbado ou consumir
+                        bebidas alcoólicas em lugares públicos</p>
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#carousel" data-bs-slide="prev" class="carousel-control-prev" type="button">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button data-bs-target="#carousel" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+        <div class="carousel-indicators">
+            <button class="active" data-bs-target="#carousel" data-bs-slide-to="0" type="button"></button>
+            <button data-bs-target="#carousel" data-bs-slide-to="1" type="button"></button>
+            <button data-bs-target="#carousel" data-bs-slide-to="2" type="button"></button>
+        </div>
+    </div>
+    <div class="container">
+        <section id="produtos">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <article class="card">
+                        <img class="card-img-top" src="https://m.media-amazon.com/images/I/61MWIe1BzwL._AC_SL1000_.jpg"
+                            alt="Card imagem disco vinil">
+                        <div class="card-body">
+                            <h5 class="card-title">Dawn. vinyl</h5>
+                            <p class="card-text">Disco vinil do Kendrick Lamar, album DAWN.</p>
+                            <a href="https://www.amazon.com.br/Damn-Kendrick-Lamar/dp/B0716SPKYW/ref=sr_1_8?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=LCSL4UTPZ7LU&dib=eyJ2IjoiMSJ9.pA8S0fmNNBA36_X9RX3GLgEbizdryF_l27lWIDZr4hcLvbwGZ6YDX0U_0vVfKRe4X6vupSEfE-yhyARdjgiKQT49NMqgtyZpP5UWcFI_eWT-RKzDIuD8DHfGo1SnseeTwl2TD2G1CZcVSiiUIH0Ea3-QJr_tS2SWdvM5h7W6HdNzdCu7hHUwhK2EWkArSMomqqX7KQXxhrQ0tvGZ21NtGQOkyuUWQbe2E40Ma2iGPonIXxm1dYp_vBNl0a_ZJwAdKCrlefZCrhU_nrmnv4ldwmZohwZksIVSH_M6h7hb_PU.YCvMfhIzSBZKNJucJPmipiehVJ4JBgZz2C5qxD7qkw4&dib_tag=se&keywords=disco+vinil+rap&qid=1722449740&sprefix=disco+vinil+rap%2Caps%2C192&sr=8-8&ufe=app_do%3Aamzn1.fos.db68964d-7c0e-4bb2-a95c-e5cb9e32eb12"
+                                class="btn btn-danger">Comprar agora</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <article class="card">
+                        <img class="card-img-top" src="https://m.media-amazon.com/images/I/81hiJLs5wjL._AC_SL1500_.jpg"
+                            alt="Card imagem disco vinil">
+                        <div class="card-body">
+                            <h5 class="card-title">Rodeo [Disco de Vinil]</h5>
+                            <p class="card-text">Disco vinil do Travis Scott, album Rodeo</p>
+                            <a href="https://www.amazon.com.br/Rodeo-Disco-Vinil-Travis-Scott/dp/B015P76F0G/ref=sr_1_10?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=LCSL4UTPZ7LU&dib=eyJ2IjoiMSJ9.pA8S0fmNNBA36_X9RX3GLgEbizdryF_l27lWIDZr4hcLvbwGZ6YDX0U_0vVfKRe4X6vupSEfE-yhyARdjgiKQT49NMqgtyZpP5UWcFI_eWT-RKzDIuD8DHfGo1SnseeTwl2TD2G1CZcVSiiUIH0Ea3-QJr_tS2SWdvM5h7W6HdNzdCu7hHUwhK2EWkArSMomqqX7KQXxhrQ0tvGZ21NtGQOkyuUWQbe2E40Ma2iGPonIXxm1dYp_vBNl0a_ZJwAdKCrlefZCrhU_nrmnv4ldwmZohwZksIVSH_M6h7hb_PU.YCvMfhIzSBZKNJucJPmipiehVJ4JBgZz2C5qxD7qkw4&dib_tag=se&keywords=disco+vinil+rap&qid=1722449740&sprefix=disco+vinil+rap%2Caps%2C192&sr=8-10&ufe=app_do%3Aamzn1.fos.6121c6c4-c969-43ae-92f7-cc248fc6181d"
+                                class="btn btn-danger">Comprar agora</a>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 mb-4">
+                    <article class="card">
+                        <img class="card-img-top" src="https://m.media-amazon.com/images/I/61jxguiMreL._AC_SL1200_.jpg"
+                            alt="Card imagem disco vinil">
+                        <div class="card-body">
+                            <h5 class="card-title">The Eminem Show [Disco de Vinil]</h5>
+                            <p class="card-text">Disco vinil do Eminem, album The Eminem Show</p>
+                            <a href="https://www.amazon.com.br/Eminem-Show-Disco-Vinil/dp/B000066JCX/ref=sr_1_16?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=LCSL4UTPZ7LU&dib=eyJ2IjoiMSJ9.pA8S0fmNNBA36_X9RX3GLgEbizdryF_l27lWIDZr4hcLvbwGZ6YDX0U_0vVfKRe4X6vupSEfE-yhyARdjgiKQT49NMqgtyZpP5UWcFI_eWT-RKzDIuD8DHfGo1SnseeTwl2TD2G1CZcVSiiUIH0Ea3-QJr_tS2SWdvM5h7W6HdNzdCu7hHUwhK2EWkArSMomqqX7KQXxhrQ0tvGZ21NtGQOkyuUWQbe2E40Ma2iGPonIXxm1dYp_vBNl0a_ZJwAdKCrlefZCrhU_nrmnv4ldwmZohwZksIVSH_M6h7hb_PU.YCvMfhIzSBZKNJucJPmipiehVJ4JBgZz2C5qxD7qkw4&dib_tag=se&keywords=disco+vinil+rap&qid=1722449740&sprefix=disco+vinil+rap%2Caps%2C192&sr=8-16"
+                                class="btn btn-danger">Comprar agora</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 mb-4">
+                <article class="card">
+                    <img class="card-img-top" src="https://m.media-amazon.com/images/I/51CxkcsoefL._AC_SL1000_.jpg"
+                        alt="Card imagem disco vinil">
+                    <div class="card-body">
+                        <h5 class="card-title">2001 [2 LP] [Disco de Vinil]</h5>
+                        <p class="card-text">Após um hiato de sete anos, Dr. Dre retornou com “2001”, o sucessor de seu
+                            álbum de estreia, “The Chronic”.</p>
+                        <a href="https://www.amazon.com.br/2001-2-LP-Disco-Vinil/dp/B07S3D966F/ref=sr_1_6?__mk_pt_BR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=LCSL4UTPZ7LU&dib=eyJ2IjoiMSJ9.pA8S0fmNNBA36_X9RX3GLgEbizdryF_l27lWIDZr4hcLvbwGZ6YDX0U_0vVfKRe4X6vupSEfE-yhyARdjgiKQT49NMqgtyZpP5UWcFI_eWT-RKzDIuD8DHfGo1SnseeTwl2TD2G1CZcVSiiUIH0Ea3-QJr_tS2SWdvM5h7W6HdNzdCu7hHUwhK2EWkArSMomqqX7KQXxhrQ0tvGZ21NtGQOkyuUWQbe2E40Ma2iGPonIXxm1dYp_vBNl0a_ZJwAdKCrlefZCrhU_nrmnv4ldwmZohwZksIVSH_M6h7hb_PU.YCvMfhIzSBZKNJucJPmipiehVJ4JBgZz2C5qxD7qkw4&dib_tag=se&keywords=disco+vinil+rap&qid=1722449740&sprefix=disco+vinil+rap%2Caps%2C192&sr=8-6&ufe=app_do%3Aamzn1.fos.fcd6d665-32ba-4479-9f21-b774e276a678"
+                            class="btn btn-danger">Comprar agora</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </div>
+    <section id="containerAccordion">
+        <div class="container">
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item bg-dark text-white">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed bg-dark text-white" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            O que é o Portal RAP?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            O Portal RAP é um site dedicado a fornecer notícias, análises, entrevistas e conteúdos
+                            exclusivos sobre o universo do rap nacional e internacional.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-dark text-white">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed bg-dark text-white" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                            aria-controls="flush-collapseTwo">
+                            O conteúdo do Portal RAP News é gratuito?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Sim, todo o conteúdo disponível no Portal RAP News é gratuito. No
+                            entanto, oferecemos uma assinatura premium com benefícios exclusivos, como acesso antecipado
+                            a
+                            entrevistas e conteúdos especiais.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item bg-dark text-white">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed bg-dark text-white" type="button"
+                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Como posso enviar uma sugestão de pauta ou notícia?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            Você pode enviar suas sugestões de pauta ou notícia através do nosso formulário de contato
+                            disponível na página "Contato" ou enviando um e-mail para sugestoes@rapnews.com (e-mail
+                            meramente ilustrativo).
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div id="footer-copyright">© 2024 - Todos os Direitos Reservados | Lucas Fernandes </div>
+    </footer>
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+}
+
+header {
+    background-color: #191919;
+}
+
+.text-danger {
+    color: #831010;
+}
+
+#home img {
+    max-width: 1950px;
+    max-height: 920px;
+}
+
+#carouselCaption {
+    height: 200px;
+}
+
+#carouselCaption h2 {
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#carouselCaption p {
+    font-size: 20px;
+}
+
+.card {
+    width: 18rem;
+    margin-top: 16px;
+    max-width: 416px;
+    width: 100%;
+}
+
+#footer-copyright {
+    display: flex;
+    justify-content: center;
+    background-color: #191919;
+    color: #fff;
+    padding: 1.5em;
+    font-weight: 100;
+    margin-top: px;
+}
+
+.accordion {
+    margin-top: 16px;
+}
+
+#containerAccordion {
+    padding: 8px;
+    margin-top: 16px;
+    background-color: #191919;
+}
+
+@media screen and (min-width:642px) and (max-width:1024px) {
+    #carouselCaption h2 {
+        font-size: 20px;
+    }
+
+    #carouselCaption p {
+        font-size: 15px
+    }
+
+    #carouselCaption {
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:640px) {
+    #carouselCaption h2 {
+        font-size: 12px;
+    }
+
+    #carouselCaption p {
+        font-size: 8px
+    }
+
+    #carouselCaption {
+        height: 100px;
+    }
+}
